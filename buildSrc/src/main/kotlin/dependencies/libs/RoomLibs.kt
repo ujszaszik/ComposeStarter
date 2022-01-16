@@ -7,13 +7,11 @@ import dependencies.values
 
 object RoomLibs : DependencyProvider, KaptDependencyProvider {
 
-    const val VERSION_ROOM = "2.3.0"
-    const val VERSION_SQLITE = "2.1.0"
+    const val VERSION_ROOM = "2.4.0"
 
     override fun dependencies() = listOf(
         Dependency("androidx.room", "room-runtime", VERSION_ROOM),
-        Dependency("androidx.room", "room-ktx", VERSION_ROOM),
-        Dependency("androidx.sqlite", "sqlite-ktx", VERSION_SQLITE)
+        Dependency("androidx.room", "room-ktx", VERSION_ROOM)
     ).values()
 
     override fun kaptDependencies() = listOf(
