@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--    Application Theme-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!--    HIlt UI Test Theme-->
+    <style name="HiltTestTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>
