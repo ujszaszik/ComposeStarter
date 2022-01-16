@@ -3,6 +3,7 @@
     <!--    Application Theme-->
     <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:backgroundTint">#FFFFFF</item>
         <item name="android:windowTranslucentStatus">true</item>
     </style>
 
