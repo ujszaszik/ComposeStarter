@@ -1,8 +1,6 @@
 # compose-starter
 
-Starter implementation for a project which uses Jetpack Compose with Kotlin-Hilt-Coroutines.
-
-It's purposes is to define the most used configurations, and could be used without a need to make those basic configuraitons and setup every single time.
+Full base project setup for using Jetpack Compose with Kotlin-Coroutines/Flow, Hilt, Retrofit, Moshi, Room.
 
 The repository contains setup for usage of:
 -------------------------------------------
